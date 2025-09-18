@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams and drivers</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/formula-1-logo.png" alt="Formula one logo" id="logo">
+        <nav>
+            <a href="home.html">Home</a> 
+            <a href="about.html">Teams & Drivers</a> 
+            <a href="calendar.html">Races & Calendar</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Meet the Heroes of the Track 🚦</h1>
+        <hr>
+        <p>Formula 1 is powered by ten elite teams, each with two drivers who push the limits every race weekend. Here are some of the standouts:</p>
+        <ul>
+            <li>Mercedes-AMG Petronas - Home to multiple world championships, known for speed and precision.</li>
+            <li>Red Bull Racing - A dominant force with aggressive strategy and powerful cars.</li>
+            <li>Ferrari - The most iconic name in Formula 1, carrying decades of racing history.</li>
+            <li>McLaren - Renowned for innovation and a rich legacy in motorsport.</li>
+            <li>Williams - A team with a storied past, known for nurturing young talent.</li>
+            <li>Aston Martin, Alpine, Williams, Haas, Sauber, and RB - Teams fighting hard to make their mark.</li>
+        </ul>
+        <img src="images/teams.avif" alt="Formula 1 teams" id="teams">
+        <hr>
+        <p>The Drivers - From seasoned world champions to fearless rookies, drivers are the heart of F1. They risk it all on every lap, chasing points, podiums, and the ultimate prize—the World Championship.</p>
+        <img src="images/drivers.jpg" alt="Formula 1 drivers" id="drivers">
+        <h2>Who is your Favourite Driver?</h2>
+        <form>
+            <label for="driver">Choose a driver:</label>
+            <select id="driver" name="driver">
+                <option value="">-- Select a driver --</option>
+                <option value="leclerc">Charles Leclerc</option>
+                <option value="max-verstappen">Max Verstappen</option>
+                <option value="hamilton">Lewis Hamilton</option>
+                <option value="sainz">Carlos Sainz</option>
+                <option value="russell">George Russell</option>
+                <option value="perez">Sergio Perez</option>
+                <option value="norris">Lando Norris</option>
+                <option value="alonso">Fernando Alonso</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>   
+            <label class="d-specify" id="driver-specify" for="specify">Please specify the other:</label>
+            <input class="d-specify" type="text" id="specify" name="specify" placeholder="Enter your favorite driver"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Oliver Kaka 2025. All rights reserved.</p>
+    </footer>    
+    <script src="js/about.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Races & Calendar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/formula-1-logo.png" alt="Formula one logo" id="logo">
+        <nav>
+            <a href="home.html">Home</a> 
+            <a href="about.html">Teams & Drivers</a> 
+            <a href="calendar.html">Races & Calendar</a>
+        </nav>
+    </header>
+    <main>
+        <h1>The Thrill of the Season 🏁</h1>
+        <p>Each Formula 1 season takes fans on a global journey across 20+ circuits, from the streets of Monaco to the high-speed straights of Monza. Every track offers a unique challenge—sharp corners, blistering straights, and passionate fans.</p>
+        <p>Highlights of the calendar include:</p>
+        <ul>
+            <li>Monaco Grand Prix - Glamour meets racing on the streets of Monte Carlo.</li>
+            <li>British Grand Prix (Silverstone) - The birthplace of F1 with legendary history.</li>
+            <li>Italian Grand Prix (Monza) - Known as the “Temple of Speed.”</li>
+            <li>Abu Dhabi Grand Prix - The dramatic season finale under the desert lights.</li>
+        </ul>
+        <p>Each race adds points to the Drivers' and Constructors' Championships, making every lap crucial. The season isn’t just about speed—it’s about strategy, endurance, and pure determination.</p>
+        <img src="images/calendar.jpg" alt="Formula one calendar" id="calendar">
+        <form id="track">
+            <hr>
+            <h2>What's Your Favorite Circuit? 🏎️</h2>
+            <label for="circuit">Choose your favorite circuit:</label>
+            <select id="circuit" name="circuit">
+                <option value="">-- Select a circuit --</option>
+                <option value="monaco">Monaco</option>
+                <option value="silverstone">Silverstone</option>
+                <option value="monza">Monza</option>
+                <option value="spa">Spa-Francorchamps</option>
+                <option value="yas-marina">Yas Marina</option>
+                <option value="interlagos">Interlagos</option>
+                <option value="suzuka">Suzuka</option> 
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            <label class="t-specify" id="circuit-specify" for="specify">Please specify the other:</label>
+            <input class="t-specify" type="text" id="specify" name="specify" placeholder="Enter your favorite circuit"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Oliver Kaka 2025. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

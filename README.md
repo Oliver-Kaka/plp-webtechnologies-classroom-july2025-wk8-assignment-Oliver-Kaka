@@ -1,90 +1,75 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Formula One Website 🌍🏎️  
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+## 📌 Project Overview  
+This is a **multi-page Formula One website** created as part of a web development assignment. The project demonstrates the use of **HTML5, CSS3, and JavaScript** to build a responsive and interactive website.  
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+The site introduces Formula One, its teams, drivers, and race calendar, while also including interactive forms for user engagement.  
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 🌐 Deployment  
+The project is live at:  
+👉 [View Live Website](#)    
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 🗂️ Project Structure  
+```
 
-Before deployment, refactor your project to follow production-friendly practices:
+project-folder/
+│
+├── home.html        # Homepage with F1 introduction & subscription form
+├── about.html        # Teams & Drivers page with driver selection form
+├── calendar.html     # Race Calendar page with circuit selection form
+│
+├── css/
+│   └── styles.css    # Global stylesheet
+│
+├── js/
+│   ├── about.js      # JS logic for driver selection form
+│   ├── script.js     # JS logic for circuit selection form
+|   └── home.js       # JS logic for subscribing to news letter
+│
+└── images/
+    ├── formula-1-logo.png
+    ├── teams.avif
+    ├── drivers.jpg
+    └── calendar.jpg
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+```
 
 ---
 
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+## 🎯 Features  
+- **Responsive Layout** using CSS Grid & Flexbox.  
+- **Navigation Bar** present on all pages.  
+- **Forms**:
+  - Homepage → Subscription form (name, email, gender).  
+  - About Page → Favorite driver selection with "Other" option.  
+  - Calendar Page → Favorite circuit selection with "Other" option.  
+- **JavaScript Interactivity**:
+  - Show/hide input fields when “Other” is selected.  
+- **Consistent Styling** with hover effects, shadows, and accessible images.  
 
 ---
 
-## Outcome
+## 🚀 How to Run the Project  
+1. Clone or download the project files.  
+2. Open `index.html` in your browser to start.  
+3. Navigate between pages using the menu bar.  
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+_No server setup is required – the site is fully static._  
+
+---
+
+## 🔧 Technologies Used  
+- **HTML5** → Structure and semantic elements  
+- **CSS3** → Layout, design, and responsive styling  
+- **JavaScript (ES6)** → Event handling and DOM manipulation  
+
+---
+
+## 👨‍💻 Author  
+**Oliver Kaka Maganga**  
+- 🌐 [LinkedIn](https://www.linkedin.com/in/oliver-kaka-maganga)  
+- 💻 [GitHub](https://github.com/Oliver-Kaka)  
